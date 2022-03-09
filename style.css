@@ -96,3 +96,11 @@ nav.active .icon .line1 {
 nav.active .icon .line2 {
   transform: rotate(765deg) translateY(-7.5px);
 }
+@media (max-width: 480px) {
+  nav.active ul {
+    width: 4.6rem;
+  }
+  ul li a {
+    font-size: 0.84rem;
+  }
+}
